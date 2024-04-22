@@ -1,4 +1,4 @@
-// TeamSection.js
+
 import React from "react";
 import TeamMember from "./TeamMember";
 import Team1 from "../assets/about-us-social-media-team-01.png";

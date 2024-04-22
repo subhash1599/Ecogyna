@@ -1,4 +1,4 @@
-// AboutSection.js
+
 import React from "react";
 import AboutImage from "../assets/about-us-sustainable-lifestyle-partner.png";
 

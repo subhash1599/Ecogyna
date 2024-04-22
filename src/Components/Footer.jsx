@@ -1,4 +1,4 @@
-// Footer.js
+
 import React from "react";
 import twittergif from "../assets/icons8-twitter.gif";
 import facebookgif from "../assets/icons8-facebook.gif";

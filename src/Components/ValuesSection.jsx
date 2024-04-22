@@ -1,4 +1,4 @@
-// ValuesSection.js
+
 import React from "react";
 import Trust from "../assets/Trust.png";
 import Authenticity from "../assets/Authenticity.png";

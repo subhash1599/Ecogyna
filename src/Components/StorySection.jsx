@@ -1,4 +1,4 @@
-// StorySection.js
+
 import React from "react";
 import StoryIcon1 from "../assets/about-us-founding-team-01.png";
 import StoryIcon2 from "../assets/about-us-founding-team-02.png";
@@ -6,7 +6,7 @@ import Linkedin from "../assets/linkedin.png";
 function StorySection() {
   return (
     <section className="mb-12">
-      {/* Content for Story section */}
+    
       <h2 className="text-2xl font-bold mb-6">Our Story</h2>
 
           <div className="flex items-start mb-8">
