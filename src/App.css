@@ -1,0 +1,74 @@
+.app {
+  text-align: center; /* Center align content */
+  margin-top: 20px; /* Add some margin on top */
+}
+
+.content {
+  display: none; /* Hide content by default */
+  position: relative; /* Positioning for the overlay */
+}
+
+.content.active {
+  display: block; /* Show active content */
+}
+
+.content img {
+  max-width: 100%; /* Set max width for images to 100% */
+  height: auto; /* Set height to auto for responsive scaling */
+}
+
+.overlay {
+  position: absolute; /* Position overlay absolutely */
+  top: 50%; /* Align overlay vertically at 50% */
+  left: 30%; /* Align overlay horizontally at 50% */
+  transform: translate(-50%, -50%); /* Center overlay */
+  color: black; /* Text color for overlay */
+  text-align: center; /* Center align text */
+
+}
+
+.dots {
+  text-align: center; /* Center align dots */
+  margin-top: 20px; /* Add some margin on top */
+}
+
+.dot {
+  display: inline-block; /* Display dots inline */
+  width: 10px; /* Set dot width */
+  height: 10px; /* Set dot height */
+  background-color: black; /* Set dot background color */
+  border-radius: 50%; /* Make dot circular */
+  margin: 0 5px; /* Add margin between dots */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.dot.active {
+  background-color: red; /* Change color of active dot */
+}
+
+.overlay p{
+  font-size: 30px;
+}
+
+.overlay button {
+  background-color: #4CAF50; /* Green background color */
+  color: white; /* White text color */
+  padding: 12px 24px; /* Padding for button */
+  border: none; /* Remove border */
+  border-radius: 17px; /* Add border radius */
+  text-align: center; /* Center align text */
+  text-decoration: none; /* Remove underline */
+  font-size: 18px; /* Font size */
+  cursor: pointer; /* Add pointer cursor */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+  background-image: linear-gradient(to bottom, #4CAF50, #45a049); /* Gradient background */
+  
+}
+
+.overlay button:hover {
+  background-color: #4CAF70; /* Lighter green on hover */
+  background-image: linear-gradient(to bottom, #4CAF70, #45a059); /* Gradient on hover */
+}
+
+  
